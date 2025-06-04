@@ -40,7 +40,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
       } lg:translate-x-0 transition-transform duration-300 ease-in-out`}
     >
       <div className="flex items-center justify-center h-16 border-b border-gray-200">
-        <h1 className="text-2xl font-bold text-indigo-700">FinanceAI</h1>
+        <h1 className="text-2xl font-bold text-teal-700">FinanceAI</h1>
       </div>
       <div className="overflow-y-auto h-full pb-20">
         <nav className="mt-5 px-2">
@@ -51,11 +51,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
                 href="#"
                 className={`group flex items-center px-3 py-3 rounded-md text-sm font-medium ${
                   item.current
-                    ? 'bg-indigo-50 text-indigo-700'
+                    ? 'bg-teal-50 text-teal-700'
                     : 'text-gray-700 hover:bg-gray-50 hover:text-gray-900'
                 }`}
               >
-                <span className={`mr-3 ${item.current ? 'text-indigo-700' : 'text-gray-500 group-hover:text-gray-600'}`}>
+                <span className={`mr-3 ${item.current ? 'text-teal-700' : 'text-gray-500 group-hover:text-gray-600'}`}>
                   {item.icon}
                 </span>
                 {item.name}

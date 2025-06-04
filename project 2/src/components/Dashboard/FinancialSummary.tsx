@@ -44,7 +44,7 @@ const FinancialSummary: React.FC = () => {
           className="relative bg-white pt-5 px-4 pb-6 sm:pt-6 sm:px-6 shadow rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300"
         >
           <dt>
-            <div className="absolute bg-indigo-500 rounded-md p-3">
+            <div className="absolute bg-teal-500 rounded-md p-3">
               <div className="text-white">{stat.icon}</div>
             </div>
             <p className="ml-16 text-sm font-medium text-gray-500 truncate">
